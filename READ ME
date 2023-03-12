@@ -1,0 +1,9 @@
+READ ME
+Load the file to your thumbdrive that you are using for grab the autopilot hardware hash.
+This assumes you have already reimaged the device and you are on the OBE screen. 
+"Shift" + "F10"
+By default windows chooses D as the drive for the Flash drive 
+Make sure you have an internet connection
+powershell.exe -ExecutionPolicy Bypass -file D:\step1.ps1
+Click Y to all prompt 
+Import your CSV into Intune.
